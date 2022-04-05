@@ -111,6 +111,11 @@
     left: 25%;
   }
 }
+@media screen and (max-width:568px) {
+  .slideh3{
+    font-size: 50px;
+  }
+}
 /*************sec2home*****************/
 .divsec2{
 margin-top: 100px;
