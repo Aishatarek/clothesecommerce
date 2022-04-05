@@ -4,16 +4,13 @@
   box-sizing: border-box;
   font-family: 'Jost', sans-serif;
   font-weight: 1000;
-
   font-style: normal;
 }
  h3{
   font-weight: 1000 !important;
-
 }
 .navvvv{
   background-color: #ebeeee !important;
-
 }
 .navyy{
   width: 100%;
@@ -29,27 +26,31 @@
 }
 .navlinkk{
   color: #2c2c2c !important;
-margin: 0px 10px;
-font-size: 20px;
-text-decoration: none;
+  margin: 0px 10px;
+  font-size: 20px;
+  text-decoration: none;
 }
 /****************carsoulhome***********************/
+
 .fslider{
   position: relative;
 }
 .firstslide{
-background-size: cover;
-background-attachment: fixed;
-height: 95vh;
-background-color: #ebeeee !important;
-position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 95vh;
+  background-color: #ebeeee !important;
+  position: relative;
+  outline: none !important;
+
 }
 .secondslide{
   position: relative;
-background-size: cover;
-background-attachment: fixed;
-height: 90vh;
-background-color: #ebeeee !important;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 95vh;
+  background-color: #ebeeee !important;
+  outline: none !important;
 
 }
 .fslider img{
@@ -63,10 +64,10 @@ background-color: #ebeeee !important;
 .pppslide{
   position: absolute;
   top: 85%;
-z-index: 333;
-font-size: 50px;
-left:12% ;
-color: black;
+  z-index: 333;
+  font-size: 50px;
+  left:12% ;
+  color: black;
 }
 .fslider .slick-next{
   position: absolute;
@@ -81,20 +82,34 @@ color: black;
   z-index: 222;
 }
 .fslider .slick-prev:before, .fslider .slick-next:before {
- color: black !important;
- opacity: 1 !important;
- font-size: 50px !important;
+  color: black !important;
+  opacity: 1 !important;
+  font-size: 50px !important;
 }
 .slideh3{
   position: absolute;
   top: 30%;
   z-index: 22;
   font-size: 100px;
- font-weight: 1000;
+  font-weight: 1000;
   left: 5%;
 }
 .fslider .slick-dots{
   display: none !important;
+}
+@media screen and (max-width:768px) {
+  .fslider img{
+    height: 50%;
+  }
+  .slideh3{
+    font-size: 80px;
+  }
+  .fslider .slick-prev:before, .fslider .slick-next:before {
+    font-size: 30px !important;
+  }
+  .fslider .slick-next{
+    left: 25%;
+  }
 }
 /*************sec2home*****************/
 .divsec2{
@@ -135,31 +150,27 @@ transition: all 0.5s ease-in-out;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-
 }
 .flexy2 h3 {
-font-size: 50px;
-
+  font-size: 50px;
 }
 .flexy2 p{
   color: #707070;
-
 }
 .divsec3{
   width: 250px;
   overflow: hidden;
   margin-top: 30px;
   background-color: white;
-
-  }
+}
 .divsec3 img{
   
-    width: 100%;
+  width: 100%;
   transition: all 0.5s ease-in-out;
-  }
-  .divsec3 img:hover{
-    transform: scale(1.1);
-  }
+}
+.divsec3 img:hover{
+  transform: scale(1.1);
+}
 .divflexy3{
   padding: 30px 0px ;
   padding-right: 50px;
@@ -177,7 +188,7 @@ font-size: 50px;
 .divflexy3 svg{
   font-size: 30px;
   color: #a1a1a1;
-cursor: pointer;
+  cursor: pointer;
 }
 .divbuttonsec3{
   transform: rotate(90deg);
@@ -199,21 +210,18 @@ cursor: pointer;
 .sec3 .slick-arrow{
   width: 60px !important;
   height: 60px !important;
-
-
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .sec3 .slick-next{
   position: absolute;
-left: 100%;  top: 45% !important;
+  left: 100%;  top: 45% !important;
 }
 .sec3 .slick-prev{
   position: absolute;
   top: 65% !important;
   left: 100% !important;
-
   z-index: 222;
 }
 .sec3 .slick-prev:before , .sec3 .slick-next:before {
@@ -247,17 +255,14 @@ left: 100%;  top: 45% !important;
   height: 70vh;
 }
 .div11sec4{
-position: absolute;
-top: 20%;
-left: 10%;
-text-align: center;
-
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  text-align: center;
 }
-
-
 .div11sec4 h5{
   font-weight: 500;
-font-size: 50px;
+  font-size: 50px;
 }
 .div11sec4 h4{
   font-weight: 900;
@@ -269,7 +274,7 @@ font-size: 50px;
   text-align: center ;
   justify-content: center;
   align-items: center;
-margin-top: -30px;
+  margin-top: -30px;
 }
 .flexywrite h3{
   font-size: 90px;
@@ -307,6 +312,7 @@ margin-top: -30px;
     font-size: 50px;
   }
 }
+
 /***********************************************************/
 .sec5{
   background-color: #f4f4f4;
@@ -352,23 +358,23 @@ margin-top: -30px;
   border-radius: 50%;
 }
 .badge{
-background-color: white;
-height: 40px;
-color: black;
-position: absolute;
-top: -130%;
+  background-color: white;
+  height: 40px;
+  color: black;
+  position: absolute;
+  top: -130%;
 
 }
 .badge::after{
   
-content: "";
-position: absolute;
-margin-left: -5px;
-border-width: 5px;
-border-style: solid;
-border-color: #fff transparent transparent transparent;
-top: 100%;
-left: 50%;
+  content: "";
+  position: absolute;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+  top: 100%;
+  left: 50%;
 
 }
 .iconbadge{
@@ -382,10 +388,10 @@ left: 50%;
   top: -330%;
   left: -250%;
   background-color: white;
-display: flex;
-width: 200px;
-padding: 5px;
-opacity: 0;
+  display: flex;
+  width: 200px;
+  padding: 5px;
+  opacity: 0;
 }
 .categorydetail img{
   width: 80px;
@@ -411,119 +417,132 @@ opacity: 0;
   left: 50%;
   
   }
-  .allcategory:hover .categorydetail{
-    opacity: 1;
-transition: 0.8s all ease-in-out;
-  }
-  .allcategory:hover .badge{
-    opacity: 0;
-  }
+.allcategory:hover .categorydetail{
+  opacity: 1;
+  transition: 0.8s all ease-in-out;
+}
+.allcategory:hover .badge{
+  opacity: 0;
+}
+.allcategory2{
+  position: absolute;
+  top: 60%;
+  left: 18%;
+  transition: all 1s ease-in-out;
+}
+.allcategory2:hover .categorydetail{
+  opacity: 1;
+  transition: 0.8s all ease-in-out;
+}
+.allcategory2:hover .badge{
+  opacity: 0;
+}
+.allcategory3{
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  transition: all 1s ease-in-out;
+}
+.allcategory3:hover .categorydetail{
+  opacity: 1;
+  transition: 0.8s all ease-in-out;
+}
+.allcategory3:hover .badge{
+  opacity: 0;
+}
+.allcategory4{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transition: all 1s ease-in-out;
+}
+.allcategory4:hover .categorydetail{
+  opacity: 1;
+  transition: 0.8s all ease-in-out;
+}
+.allcategory4:hover .badge{
+  opacity: 0;
+}
+.allcategory5{
+  position: absolute;
+  top: 45%;
+  left: 80%;
+  transition: all 1s ease-in-out;
+}
+.allcategory5:hover .categorydetail{
+  opacity: 1;
+  transition: 0.8s all ease-in-out;
+}
+.allcategory5:hover .badge{
+  opacity: 0;
+}
+@media screen and (max-width:768px) {
+  .allcategory {
+    top: 20%;
 
-
+  }
   .allcategory2{
-    position: absolute;
-    top: 60%;
-    left: 18%;
-    transition: all 1s ease-in-out;
+    top: 28%;
+    left: 35%;
   }
-  .allcategory2:hover .categorydetail{
-    opacity: 1;
-transition: 0.8s all ease-in-out;
-  }
-  .allcategory2:hover .badge{
-    opacity: 0;
-  }
-  .allcategory3{
-    position: absolute;
-    top: 35%;
-    left: 45%;
-    transition: all 1s ease-in-out;
-  }
-  .allcategory3:hover .categorydetail{
-    opacity: 1;
-transition: 0.8s all ease-in-out;
-  }
-  .allcategory3:hover .badge{
-    opacity: 0;
-  }
-  .allcategory4{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transition: all 1s ease-in-out;
-  }
-  .allcategory4:hover .categorydetail{
-    opacity: 1;
-transition: 0.8s all ease-in-out;
-  }
-  .allcategory4:hover .badge{
-    opacity: 0;
+  .allcategory3 {
+    top: 45%;
   }
   .allcategory5{
-    position: absolute;
-    top: 45%;
-    left: 80%;
-    transition: all 1s ease-in-out;
-  }
-  .allcategory5:hover .categorydetail{
-    opacity: 1;
-transition: 0.8s all ease-in-out;
-  }
-  .allcategory5:hover .badge{
-    opacity: 0;
-  }
-  /***************************************/
-  .sec6{
-    padding: 100px 0px;
-  }
-  .productsshow .col-md-4{
-    padding: 0;
-    position: relative;
-    transition: all 1s ease-in-out;
+    top:80%;
+    left: 45%;
 
   }
-  .productsshow img{
-    width: 100%;
-
-  }
-  .productdivv{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
 
 
-  }
-  .productdivv svg{
-    color: black;
-    font-size: 50px;
-  }
-  .productsshow .col-md-4:hover .productdivv{
-    transition: all 1s ease-in-out;
-    display: flex;
-
-  }
-  .rowproduct{
-    align-items: center;
-  }
-  .colproduct{
-    padding-left: 60px !important;
-  }
-  .colproduct h3{
-font-size: 50px;
-font-weight: 400;
-margin-bottom: 50px;
-  }
-  .colproduct p{
-    color: #a1a1a1;
-    margin-bottom: 50px;
-  }
+}
+/***************************************/
+.sec6{
+  padding: 100px 0px;
+}
+.productsshow .col-md-4{
+  padding: 0;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+.productsshow img{
+  width: 100%;
+}
+.productdivv{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.productdivv svg{
+  color: black;
+  font-size: 50px;
+}
+.productsshow .col-md-4:hover .productdivv{
+  transition: all 1s ease-in-out;
+  display: flex;
+}
+.rowproduct{
+  align-items: center;
+}
+.colproduct{
+  padding-left: 60px !important;
+}
+.colproduct h3{
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.colproduct p{
+  color: #a1a1a1;
+  margin-bottom: 50px;
+}
 .flexyyyyy{
   margin-top: 40px;
   display: flex;
@@ -532,7 +551,7 @@ margin-bottom: 50px;
 }
 .flexyyyyy h5{
   font-size: 30px;
-font-weight: 1000;
+  font-weight: 1000;
 }
 .flexyyyyy div{
   height: 3px;
@@ -1019,12 +1038,10 @@ margin-top: -20px;
   
   
   input[type='range']::-webkit-slider-thumb {
-
     height: 20px !important;
     width: 20px;
-
     border-radius: 50% !important;
-  
+
     -webkit-appearance: none;
     height: 10px;
     background: #ffffff;
@@ -1240,22 +1257,21 @@ margin-left: 20px;
 
 }
 .blogitemmm button{
-    margin-top: 20px;
-    margin-left: 20px;
-
-    width: 30%;
-    height: 50px;
-    outline: none;
-    border: none;
-    font-size: 20px;
-    background-color: black;
-    color: white;
-    transition: all 1s ease-in-out;
-    }
-    .blogitemmm button:hover{
-    background-color: white;
-    color: black;
-    border:1px solid black;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 30%;
+  height: 50px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  transition: all 1s ease-in-out;
+  }
+  .blogitemmm button:hover{
+  background-color: white;
+  color: black;
+  border:1px solid black;
     
 }
 /***********************************/
@@ -1264,9 +1280,8 @@ margin-left: 20px;
 }
 .seconddivblog{
   margin-top: 10px;
-
-   padding: 20px;
-   text-align: center;
+  padding: 20px;
+  text-align: center;
 }
 .seconddivblog div{
   border: 1px solid #ebeeee;
@@ -1333,9 +1348,9 @@ padding-bottom: 20px;
 }
 
 .divforthird p{
-font-size: 10px;
-margin-left: 10px;
-color: #a1a1a1;
+  font-size: 10px;
+  margin-left: 10px;
+  color: #a1a1a1;
 }
 .fourthblog{
   margin-top: 10px;
@@ -1396,7 +1411,7 @@ padding: 50px 20px;
   font-weight: 400;
   color: #fff;
   background: #2c2c2c;
-font-weight: 900;
+  font-weight: 900;
   letter-spacing: 0;
   z-index: 22;
   font-size: 12px;
@@ -1476,9 +1491,9 @@ border: 1px solid  #479ec1;
   border: 1px solid  #479ec1;
   transition: 1s all ease-in-out;
   color: #479ec1;
-font-size: 25px;
-text-align: center;
-margin: 20px 0px;
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 0px;
 
 }
 .signupbtn:hover{
