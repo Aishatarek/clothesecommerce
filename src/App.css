@@ -2227,6 +2227,14 @@ border: 1px solid black;
 }
 /****************************************/
 /****************************************/
+.copyrightfooter{
+  display: flex;
+  justify-content: center;
+}
+.copyrightfooter a{
+  color: white;
+  text-decoration: none;
+}
 @media only screen and (max-width:600px){
   .sec3 .slick-next, .sec3 .slick-prev , .sec3 .divbutton button{
     position: absolute;
