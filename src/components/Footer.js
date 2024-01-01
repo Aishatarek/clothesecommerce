@@ -7,6 +7,7 @@ export class Footer extends Component {
     render() {
         return (
             <footer>
+            
                 <Container>
                     <Row >
                         <Col lg="2" md="2" sm="12">
